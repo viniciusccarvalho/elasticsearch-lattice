@@ -1,7 +1,9 @@
 path:
   data: /data
   logs: /logs
-diego:
-  enabled: true
-  receptor: "http://receptor.10.1.1.11.xip.io"
+ discovery.type: receptor
 
+ diego:
+     credentials:
+         user: user
+         pass: pass
