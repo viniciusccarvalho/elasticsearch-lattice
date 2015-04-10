@@ -1,7 +1,8 @@
-path:
-  data: /data
-  logs: /logs
- discovery.type: receptor
+ path:
+   data: data
+   logs: logs
+ discovery:
+      type: receptor
 
  diego:
      credentials:
