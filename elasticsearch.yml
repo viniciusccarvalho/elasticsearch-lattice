@@ -3,7 +3,8 @@
    logs: logs
  discovery:
       type: receptor
-
+ network:
+      publish_host: 127.0.0.1
  diego:
      credentials:
          user: user
