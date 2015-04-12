@@ -1,6 +1,6 @@
  path:
-   data: data
-   logs: logs
+   data: /data
+   logs: /logs
  discovery:
       type: receptor
  network:
