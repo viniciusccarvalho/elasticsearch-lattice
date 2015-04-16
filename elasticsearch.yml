@@ -4,7 +4,7 @@
  discovery:
       type: receptor
  network:
-      publish_host: 127.0.0.1
+      publish_host: 127.0.0.1 
  transport:
       publish_port: 9300
  diego:
