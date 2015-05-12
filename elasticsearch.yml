@@ -3,6 +3,15 @@
    logs: /logs
  discovery:
       type: receptor
+      zen:
+         ping:
+            multicast:
+                enabled: false
+ cluster:
+      routing:
+         allocation:
+            disk:
+               threshold_enabled: false
  network:
       publish_host: 127.0.0.1 
  transport:
